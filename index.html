@@ -4,6 +4,121 @@
     <meta charset="utf-8">
     <title>Titanium Tigers</title>
     <!-- <link rel="stylesheet" href="Robotics_ourteam.css"> -->
+    <style>
+        /*Navigation styling */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+div div ul {
+    float:left;
+    padding: 25px;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 11.5em;
+    height: 1.5em;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: silver;
+    text-align: center;
+    padding: .25em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+li a:hover, li a:active {
+    background-color: black;
+}
+
+#navbar {
+    position: fixed;
+	left: 43%;
+	margin-left: -25em;
+	top: .5em;
+    z-index: 1;
+}
+
+/*Drop down menu styling*/
+
+li ul {
+    display: none;
+}
+
+li:hover ul {
+    display: inline;
+    position: fixed;
+}
+
+li:hover li {
+    float: none;
+}
+
+/*End drop down styling*/
+
+/*End Navigation styling */
+
+/*Element Wrapper styling*/
+
+#sliderFrame {
+    margin-top: 7%;
+    position: relative;
+}
+
+#bodyText {
+    margin-top: 10%;
+    position: relative;
+    background-color: rgba(192,192,192,.5);
+    padding: .05em .9em .05em .9em;
+}
+
+#sponsors {
+    margin-top:8%;
+    position: relative;
+    background-color: rgba(192,192,192,.5);
+    padding: .05em .9em .05em .9em;
+    margin-bottom: 10%;
+}
+
+#copyright {
+	color: #FFFFFF;
+	font-size: .65em;
+}
+
+#ip {
+	margin-left:80%;
+}
+
+/* End Element Wrapper styling*/
+
+/*Background styling*/
+
+body {
+	background-size: cover;
+	background-image: url("tigerbackground.jpg");
+}
+
+#body {
+	margin: 7% 10% 0% 10%;
+	background-color: rgba(192,192,192,.5);
+	padding: .3em .4em .3em .4em;
+}
+
+.anchor {
+    display: none;
+}
+    </style>
 </head>
 <body>
     <div id="navbar">
